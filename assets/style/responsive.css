@@ -1,0 +1,273 @@
+
+@media screen and (max-width: 1270px) {
+    .hero-section--container{
+        position: relative;
+        display: block;
+    }
+    .hero-image {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .hero-section--para{
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .hero-section-para2{
+        margin: 0 auto; 
+    }
+.hero-image{
+    padding-top:40px
+}
+}
+
+@media screen and(max-width:1056px) {
+  .hero-section--container {
+    display: block;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-scroll{
+        background-color: white !important;
+        height: 40px !important;
+        transition: 0.2s ease-in !important;
+      }
+      
+      .navbar-scroll  .navbar-brand{
+        color: #3a4348 !important;
+      }
+      .navbar-scroll .nav-link {
+        color: #3a4348 !important;
+      }
+      .navbar-scroll .nav-list button{
+        background-color: #24bdc9 !important ;
+        color: white !important;
+      }
+      .navbar-scroll .Hamburger-menu span{
+          color:#353535 !important;
+      }
+      .navbar-scroll .Hamburger-menu a{
+          color: #353535 !important;
+      }
+    .nav-list--xs {
+    display: block !important;
+    background: #353535;
+    text-align: left;
+    left: 50px;
+  }
+  .navbar {
+    background: #353535;
+    margin-top: 0px;
+    
+  }
+  .nav-list {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .nav-list button {
+    margin-top: 5px;
+  }
+  .brand-name {
+    margin-left: -30px;
+  }
+  .Hamburger-menu {
+    display: block;
+    color: #ddd;
+  }
+  .icon-name {
+    color: aliceblue;
+    padding-left: 12px;
+  }
+  .nav-link {
+    margin-left: 59px;
+    margin-bottom: 30px;
+    line-height: 49px;
+  }
+
+  .nav-link button {
+    width: 100%;
+  }
+
+  .footer-container {
+      display: flex;
+justify-content: space-evenly;
+ }
+
+  .company-info {
+    justify-content: space-between;
+  }
+
+  .footer-btn {
+    width: 150px;
+  }
+
+  .services-feature{
+      padding-bottom: 40px;
+  }
+
+  .menu-info{
+    padding-bottom: 40px;
+  }
+
+  .footer-box--lg{
+    width: 40%;
+  }
+  .social-link{
+    width: 245px;
+  }
+  .vpn-content{
+      width: 100%;
+      text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 700px){
+    .hero-section--para{
+        width: 50%;
+        padding-left: 20px;
+      
+    }
+    .formsection-form{
+        width: 75%; 
+    }
+    .formsection-domain{
+        width: 100%; 
+    }
+    .formsection-submitbtn{
+        width: 100%; 
+    }
+    .customertestimonial-feedback{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-gap: 70px;
+        justify-items: center;
+        margin-top: 60px;
+        padding-bottom: 209px;
+        font-family: "Poppins", Arial, sans-serif;
+    }
+    .vpn-content{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-container {
+        display: block;
+   }
+}
+
+@media screen and (max-width: 600px){
+    .hero-section--para{
+        width: 70%;
+    }
+    .servicework-btn{
+        display: block;
+    }
+    .work-btn{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 17px 0px;
+    }
+    .work-btn-notactive{
+        width: 100%;
+        margin: 20px auto;
+        padding: 18px 0px;
+    }
+    .vpn-content{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .domainsection-para2{
+        font-size: 20px;
+    }
+    .domainsection-para3{
+        font-size: 12px;
+    }
+    .testimonialsection-para2{
+        font-size: 20px;
+    }
+    .testimonialsection-para3{
+        font-size: 15px;
+    }
+    .pricing-listbox{
+        width:70%;
+    }
+    .prices{
+        margin:0 auto;
+    }
+    .hosting{
+        text-align: center;
+    }
+    .price-desc2{
+        margin:0 auto;
+    }
+    .price-para2{
+        margin:0 auto;
+    }
+    .footer-box--one{
+        width: 40%;
+    }
+    .footer-box--sg{
+        width: 40%;
+    }
+    .footer-box--lg{
+        width: 100%;
+    }
+    .hero-section--para{
+        width: 60%;
+    }
+    .hero-section-para1{
+        font-size: 40px;
+    }
+    .hero-section-para2{
+        font-size: 15px;
+    }
+    .vpn-content{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    grid-gap: 50px;
+    justify-items: center;
+    padding-bottom: 209px;
+    text-align: center;
+    margin: 0 50px;
+}
+.customertestimonial-feedback{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 70px;
+    justify-items: center;
+    margin-top: 60px;
+    padding-bottom: 209px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.testimonial-feedback{
+    width: 300px;
+}
+.blog-text p{
+    font-size:10px;
+}
+.hero-section--para{
+    width: 83%;
+}
+.hero-section-para1{
+    font-size: 32px;
+}
+.vpn-content{
+    width: 100%;
+    text-align: center;
+}
+}
