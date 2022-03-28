@@ -54,6 +54,7 @@ html {
   display: flex;
   /* padding-left: 190px; */
   list-style: none;
+  z-index: 2;
 }
 
 .nav-link {

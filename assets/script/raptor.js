@@ -15,7 +15,7 @@ function myBurger() {
 window.addEventListener('scroll', function () {
     let nav = document.getElementById("nav")
     let windowscroll = window.scrollY > 420;
-    if (window.scrollY > 420) {
+    if (windowscroll) {
         nav.classList.toggle('navbar-scroll', windowscroll);
     } else {
         nav.classList.remove("navbar-scroll");
