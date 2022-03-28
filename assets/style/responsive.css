@@ -128,9 +128,55 @@ justify-content: space-evenly;
       width: 100%;
       text-align: center;
   }
+  .feature-btn{
+    padding-left: 25px;
+  }
+  .feature-desc p{
+      padding-right:0px ;
+  }
 }
 
-
+@media screen and (max-width:830px){
+    .feature-btn-active{
+        font: 15px "Poppins", sans-serif;
+        width: 139px;
+    }
+    .feature-btn-noactive{
+        font: 15px "Poppins", sans-serif;
+        width: 139px;
+    }
+}
+@media screen and (max-width:767px){
+    .feature-container{
+        flex-wrap: wrap;
+    }
+    .feature-wraper{
+        width: 100%;
+    }
+    .feature-img-wraper{
+        width: 100%;
+        justify-content: center;
+    }
+    .feature-btn{
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .feature-btn-active{
+        width: 100%;
+    }
+    .feature-btn-noactive{
+        margin: 10px 5px;
+        width: 100%;
+    }
+    .team-wraper{
+        flex-wrap: wrap;
+    }
+    .member-container{
+        width: 80%;
+        padding-bottom: 58px;
+    }
+}
 @media screen and (max-width: 700px){
     .hero-section--para{
         width: 50%;

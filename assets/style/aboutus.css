@@ -279,4 +279,89 @@ html {
         font-weight: 300;
         color: #81919A;
     }
+    
   /* Feature container end*/
+
+  /* Team section */
+
+  .team-contianer{
+    width: 100%;
+    background: white;
+  }
+
+  .team-section{
+    padding-top: 190px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .team-tag{
+    color: #24bdc9;
+    font: 14px "Poppins", sans-serif;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .team-tagline{
+    display: block;
+    margin-bottom: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  
+  .team-desc{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .team-text{
+    display: block;
+    color: #91a0a8;
+    font: 16px "Poppins", Arial, sans-serif;
+    font-weight: 300;
+    width: 50%;
+    padding: 15px;
+  }
+
+  .team-wraper{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+    padding-top: 80px;
+  }
+
+  .member-container{
+    width: 30%;
+  }
+
+  .member-img{
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .member-img img{
+    width: 70%;
+    height: auto;
+  }
+
+  .member-container h1{
+    font: 20px 'Poppins',Arial,sans-serif;
+    color:#3a4348;
+
+  }
+  .member-container .member-desig{
+    font: 14px 'Poppins',Arial,sans-serif;
+    color: #81919A;
+  }
+  .member-container .memeber-text{
+    font: 16px  'Poppins',Arial,sans-serif;
+    padding-top: 20px;
+    padding-right: 89px;
+    font-weight: 300;
+    color: #81919A;
+    line-height: 1.9rem;
+  }
+  /* Team section */
