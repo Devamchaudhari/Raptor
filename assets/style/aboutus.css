@@ -287,6 +287,7 @@ html {
   .team-contianer{
     width: 100%;
     background: white;
+    padding-bottom: 150px;
   }
 
   .team-section{
@@ -365,3 +366,290 @@ html {
     line-height: 1.9rem;
   }
   /* Team section */
+
+  /* Fun Facts css */
+.funfact-container{
+  position: relative;
+}
+.funfact-container::before {
+content: "";
+position: absolute;
+background-image: linear-gradient(
+    135deg,
+    rgba(46, 189, 196, 0.8),
+    rgba(104, 229, 178, 0.7)
+  ),
+  url(../images/backimg.png);
+
+width: 100%;
+height: 100%;
+
+display: block;
+background-size: cover;
+}
+
+.funfactpara {
+font-family: "Poppins", Arial, sans-serif;
+color: white;
+width: 100%;
+position: relative;
+text-align: center;
+padding-top: 200px;
+}
+
+.funfact-para1 {
+font-size: 40px;
+}
+
+.funfact-para2 {
+font-size: 14px;
+padding: 20px 0px;
+font-weight: 300;
+}
+.funfact--features {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-gap: 20px;
+padding: 50px;
+position: relative;
+text-align: center;
+}
+
+.funfact-section {
+font-family: "Poppins", Arial, sans-serif;
+}
+.funfact-number {
+font-size: 30px;
+color: white;
+}
+
+.funfact-desc {
+font-size: 16px;
+color: rgba(255, 255, 255, 0.7);
+}
+/* Fun Facts css  end*/
+
+/* customer testimonial css */
+.customertestimonial-container {
+  background: #f8faff;
+  width: 100%;
+}
+
+.customertestimonial-section {
+  padding-top: 190px;
+  width: 100%;
+  text-align: center;
+}
+
+.testimonialsection-para1 {
+  color: #24bdc9;
+  font: 14px "Poppins", sans-serif;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.testimonialsection-para2 {
+  display: block;
+  margin-bottom: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.testimonialdesc {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.testimonialsection-para3 {
+  display: block;
+  color: #91a0a8;
+  font: 16px "Poppins", Arial, sans-serif;
+  font-weight: 300;
+  width: 50%;
+  padding: 15px;
+}
+
+.customertestimonial-feedback {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-items: center;
+  margin-top: 126px;
+  padding-bottom: 209px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.testimonial-feedback {
+  box-shadow: rgba(145, 160, 168, 0.08) 0px 2px 8px 0px;
+  width: 360px;
+  position: relative;
+  background: white;
+  height: 370px;
+}
+.customerprofile {
+  position: absolute;
+  left: 36px;
+  top: -40px;
+}
+.customerphoto {
+  position: relative;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+.doublequoteicon-circle {
+  position: absolute;
+  border-radius: 50px;
+  background: #e1faee;
+  width: 45px;
+  height: 45px;
+  bottom: 3px;
+  left: 70px;
+}
+.doublequoteicon {
+  font-size: 60px;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 10px;
+  color: #22d47b;
+}
+.customer-review {
+  color: #81919a;
+  font: 16px "Poppins", Arial, sans-serif;
+  margin-top: 100px;
+  padding: 0px 34px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.customer-name {
+  padding: 34px;
+}
+
+.cust-name {
+  font-size: 16px;
+  color: #3a4348;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.cust-designation {
+  font-size: 13px;
+  color: #81919a;
+  font-weight: 300;
+}
+/* customer testimonial css end */
+
+
+/* Footer section css */
+.footer-main {
+  width: 100%;
+  background-color: #24bbc9;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 100px 55px;
+}
+.footer-box--one {
+  width: 17%;
+}
+.footer-box--lg {
+  width: 20%;
+  position: relative;
+}
+.footer-box--sg {
+  width: 20%;
+}
+
+.footer-head {
+  font: 18px "Poppins", Arial, sans-serif;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.footer-text {
+  font: 16px "Poppins", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+}
+.footer-link {
+  list-style: none;
+  padding-top: 22px;
+  color: rgba(255, 255, 255, 0.7);
+  font: 16px "Poppins", Arial, sans-serif;
+}
+.footer-link:hover{
+  color: white;
+}
+.contact-link {
+  list-style: none;
+}
+.contact-link li {
+  color: white;
+  list-style: none;
+  line-height: 50px;
+}
+.contact-link i {
+  width: 30px;
+  font-size: 18px;
+}
+.footer-btn {
+  border: none;
+  background-color: white;
+  color: #24bbc9;
+  font: 16px "Poppins", Arial, sans-serif;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.contact-text {
+  color: white;
+  font: 16px "Poppins", Arial, sans-serif;
+}
+.menu-link {
+  line-height: 25px;
+}
+.contact-wrapper {
+  display: flex;
+}
+.contact-para {
+  padding-top: 10px;
+}
+
+.contact-text a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-link {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 49px;
+}
+
+.social-link a {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50px;
+  padding: 10px;
+  height: 50px;
+  text-align: center;
+  width: 50px;
+}
+.social-link i {
+  padding-top: 6px;
+  text-decoration: none;
+  color: white;
+  font-size: 35px !important;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-top: 78px;
+  width: 100%;
+}
+.footer-copyright p {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font: 16px "Poppins", Arial, sans-serif;
+}
+
+/* Footer section */
