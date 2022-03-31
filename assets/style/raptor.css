@@ -156,8 +156,8 @@ html {
 /* hero-section--container start */
 .hero-section--container {
   display: flex;
-  padding-bottom: 70px;
-  padding-top: 150px;
+  padding-bottom: 122px;
+  padding-top: 251px;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;

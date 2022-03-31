@@ -201,89 +201,106 @@ html {
     }
   /* hero-section--container start */
 
+   /* Contact Us section  */
 
-  /* Blog section css */
+   /* Contact Us section  */
+   .contactus-container{
+       width: 100%;
+       padding: 150px 0px;
+   }
+    
+   .contactus-wraper{
+    width: 100%;
+    display: block;    
+   }
+.contactus-text-wraper{
+    width: 100%;
+    padding-bottom: 40px;
+}
+   .contactus-text{
+    width: 75%;
+    margin: 0 auto;
+    font:24px 'Poppins',Arial,sans-serif;
+     color: #3a4348;
+   }
+   .contact-detail-wraper{
+    width: 75%;   
+    display: flex;
+    margin: 0 auto;
+   }
+   
+   .contact-details{
+    width: 25%;   
+}
+.contact-details .para{
+    width: 83%;
+}
+.contact-details p{
+    font:16px 'Poppins',Arial,sans-serif;
+    color: #81919A;
+}
 
-.blog-container {
-    background: #f8faff;
+.formdetails-container{
+    display: flex;
     width: 100%;
-    padding-bottom: 100px;
-  }
-  
-  .blog-section {
-    padding-top: 190px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .blog-tag {
-    color: #24bdc9;
-    font: 14px "Poppins", sans-serif;
-    display: block;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.detail-section{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-wraper{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.form-wraper input{
+    padding: 15px 20px;
+    outline: none;
     margin-bottom: 20px;
-  }
-  
-  .blog-header {
-    display: block;
-    padding-bottom: 28px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-  }
-  
-  .blog-text {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .blog-text p {
-    display: block;
-    width:50%;
-    color: #91a0a8;
-    font: 16px "Poppins", Arial, sans-serif;
-    font-weight: 300;
-  }
-  
-  .blog-list {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-top: 82px;
-  }
-  .blog-card {
-    background: white;
-    width: 360px;
-    height: 100%;
-    margin: 20px;
-  }
-  
-  .card-img img {
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 350px;
-  }
-  
-  .fa-commenting-o {
-    padding-right: 5px;
-    font-size: 20px !important;
-  }
-  
-  .blog-info {
-    font: 15px "Poppins", Arial, sans-serif;
-    color: #9eaab0;
-    padding: 20px 20px;
-    font-weight: 400;
-  }
-  .blog-text-two {
-    font: 20px "Poppins", Arial, sans-serif;
+    font: 15px 'Poppins',Arial,sans-serif;
     color: #3a4348;
+    border: 0.5px solid #c5c5c5;
+}
+
+.form-wraper input::placeholder{
+    font: 15px 'Poppins',Arial,sans-serif;
+}
+
+.form-wraper textarea{
+    padding: 15px 20px;
+    outline: none;
+    margin-bottom: 20px;
+    font: 15px 'Poppins',Arial,sans-serif;
+    color: #3a4348;
+    border: 0.5px solid #c5c5c5;
+}
+.form-btn{
+    background: #daf6f8;
+    color: #24bdc9;
+    border: none;
+    border-radius: 50px;
     padding: 20px 20px;
-  }
-  /* Blog section css */
-  
+    width: 50%;
+    font: 16px 'Poppins',Arial,sans-serif;
+}
+.map-section{
+    width: 50%;
+}
+.google-map{
+    width:100%;
+    padding: 0px;
+}
+.google-map iframe{
+    filter: brightness(0.6);
+}
+
+
   /* Footer section css */
   .footer-main {
     width: 100%;
